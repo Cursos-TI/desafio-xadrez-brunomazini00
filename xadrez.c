@@ -51,10 +51,10 @@ int main(){
     int MoverRainha = 8; 
     
 
-    printf("=================TORRE===================\n");
+    printf("=================Torre===================\n");
     movimentoTorre(MoverTorre);
     
-    printf("=================BISPO===================\n");
+    printf("=================Bispo===================\n");
     movimentoBispo(MoverBispo);
 
     printf("=================Rainha===================\n");
@@ -62,7 +62,7 @@ int main(){
 
     printf("=================Cavalo===================\n");
 
-    for (int i = 0, j = 0; i < 2; i++, j++) 
+    for (int i = 0 ; i < 2; i++) 
     {
         // Loop Interno: Executa os passos dentro de cada fase
         // k será usado para contar os passos
